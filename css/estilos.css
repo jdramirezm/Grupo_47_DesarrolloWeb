@@ -1,0 +1,7 @@
+footer{
+    background-color: #525558;
+    text-align: center;
+    color: #fff;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}

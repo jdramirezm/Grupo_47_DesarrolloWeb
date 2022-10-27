@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conversor Unidades</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+</head>
+
+<header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Electronic SAS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        
+        <ul class="navbar-nav">
+
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Administrador</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Inventario</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="ingresarproducto.html">Registrar producto</a></li>
+              <li><a class="dropdown-item" href="actualizarproducto.html">Actualizar producto</a></li>
+              <li><a class="dropdown-item" href="eliminarproducto.html">Eliminar un producto</a></li>
+              <li><a class="dropdown-item" href="consultarproducto.html">Consultar producto</a></li>
+
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Utilidades</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="calcularcompras.html">Calculadora de compras</a></li>
+              <li><a class="dropdown-item" href="conversorunidades.html">Conversor de unidades</a></li>
+
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="tablapruebas.html">Prueba Tablas</a>
+          </li> 
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </nav>
+</header>
+
+<body>
+  <main>
+     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <p><a class="btn btn-lg btn-primary" href="ingresarproducto.html">Registrar Producto</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <p><a class="btn btn-lg btn-primary" href="actualizarproducto.html">Actualizar Producto</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+
+        <div class="container">
+          <div class="carousel-caption">
+            <p><a class="btn btn-lg btn-primary" href="eliminarproducto.html">Eliminar Producto</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+                <div class="container">
+          <div class="carousel-caption">
+            <p><a class="btn btn-lg btn-primary" href="consultarproducto.html">Consultar Producto</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div><br>
+
+<header class="row justify-content-center align-items-center">
+  <p class="light-light mb-3 p-5 fs-4 fw-bold">
+        CONVERSOR UNIDADES</p>
+
+<script>
+function calcular(){
+    
+    var a = document.f1.a.value;
+    var b = document.f1.b1.value;
+    var z = document.f1.b2.value;
+    var r = document.f1.c.value;
+    r=(parseFloat(a)*parseFloat(z))/parseFloat(b);
+   document.f1.c.value=r;
+}
+</script> 
+<form name="f1" action="Conversor.html" method="POST">
+    <input type="text" class="form-control" id="a" name="a" placeholder="Ingrese su valor a convertir" style="width: 250px">
+    <select name="b1" class="form-control"style="width: 250px">
+  <option value="1000" style="color: black" >Byte</option>
+  <option value="1" style="color: black" >kilobyte</option>
+  <option value="0.001" style="color: black">Megabyte</option>
+  <option value="0.000001" style="color: black">Gigabyte</option>
+</select>
+  <input type="Button" name="" value="convertir" onclick="calcular()" class="btn btn-dark" style="background-color: #B5FF33">
+<select name="b2" class="form-control"style="width: 250px">
+  <option value="1000" style="color: black" >Byte</option>
+  <option value="1" style="color: black" >kilobyte</option>
+  <option value="0.001" style="color: black">Megabyte</option>
+  <option value="0.000001" style="color: black">Gigabyte</option>
+</select>
+<fieldset disabled>
+  <input type="text" class="form-control" id="c" name="c" placeholder="Resultado"style="width: 250px">
+  </form><br>
+  <h3><strong>LUIS CARLOS SANABRIA</strong></h3>
+
+
+  </main>
+
+      <footer >
+        <ul>
+            <p>
+                <hr> Nombre: <strong>JAVIER DAVID RAMIREZ<br> cod.1070976181</strong><br><strong>jdramirezm@unadvirtual.edu.co</strong> <br>
+                Skype: <strong>chavirock1</strong> <br>
+                Actualización: <h5><strong>24/10/2022</strong> </h5>
+                <hr>
+            </p>
+        </ul>
+        <ul>
+            <p>
+                <hr> Nombre: <strong>LUIS CARLOS SANABRIA<br> cod.</strong><br><strong>-@unadvirtual.edu.co</strong> <br>
+                Skype: <strong>-</strong> <br>
+                Actualización: <h5><strong>23/10/2022</strong> </h5>
+                <hr>
+            </p>
+        </ul>
+        <ul>
+            <p>
+                <hr> Nombre: <strong>SERGIO LUIS FONTALVO<br> cod.</strong><br><strong>-@unadvirtual.edu.co</strong> <br>
+                Skype: <strong>-</strong> <br>
+                Actualización: <h5><strong>23/10/2022</strong> </h5>
+                <hr>
+            </p>
+        </ul>
+        <ul>
+            <p>
+                <hr> Nombre: <strong>Estudiante 4<br> cod.</strong><br><strong>-@unadvirtual.edu.co</strong> <br>
+                Skype: <strong>-</strong> <br>
+                Actualización: <h5><strong>23/10/2022</strong> </h5>
+                <hr>
+            </p>
+        </ul>
+        <ul>
+            <p>
+                <hr> Nombre: <strong>Estudiante 5<br> cod.</strong><br><strong>-@unadvirtual.edu.co</strong> <br>
+                Skype: <strong>-</strong> <br>
+                Actualización: <h5><strong>23/10/2022</strong> </h5>
+                <hr>
+            </p>
+        </ul>
+
+    </footer>
+
+</body>
+</html>
